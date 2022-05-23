@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/shopping_cart/BuildConfig.java
+ com.example.shopping_cart.BuildConfig

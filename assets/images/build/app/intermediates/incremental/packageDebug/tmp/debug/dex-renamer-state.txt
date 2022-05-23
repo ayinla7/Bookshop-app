@@ -1,0 +1,4 @@
+#Mon Apr 04 21:02:36 BST 2022
+base.0=/Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

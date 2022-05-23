@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shopping_cart"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:3:5-66
+14-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:4:5-65
+15-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:4:22-62
+16    <uses-permission android:name="android.permission.FLASHLIGHT" />
+16-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:5:5-69
+16-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:5:22-66
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:6:5-79
+17-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:6:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:7:5-81
+18-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:7:22-78
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:8:5-85
+19-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:8:22-82
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-77
+20-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-74
+21
+22    <application
+22-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:9:5-37:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.6.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/122df2e57d294d1a53db26bbc3b813c1/core-1.6.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:12:9-43
+26        android:label="shopping_cart"
+26-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:10:9-38
+27        android:requestLegacyExternalStorage="true" >
+27-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:11:9-52
+28        <activity
+28-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:13:9-31:20
+29            android:name="com.example.shopping_cart.MainActivity"
+29-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:14:13-41
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+30-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:17:13-163
+31            android:hardwareAccelerated="true"
+31-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:18:13-47
+32            android:launchMode="singleTop"
+32-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:15:13-43
+33            android:theme="@style/LaunchTheme"
+33-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:16:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:19:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:24:13-26:57
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:25:17-72
+44                android:resource="@style/NormalTheme" />
+44-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:26:17-54
+45
+46            <intent-filter>
+46-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:27:13-30:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:28:17-69
+47-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:28:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:29:17-77
+49-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:29:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:34:9-36:33
+57            android:name="flutterEmbedding"
+57-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:35:13-44
+58            android:value="2" />
+58-->/Users/ayinlakwamdeen/Downloads/shopping_cart-main/android/app/src/main/AndroidManifest.xml:36:13-30
+59
+60        <provider
+60-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+61            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+61-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-82
+62            android:authorities="com.example.shopping_cart.flutter.image_provider"
+62-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-74
+63            android:exported="false"
+63-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+64            android:grantUriPermissions="true" >
+64-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+65            <meta-data
+65-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:75
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+67                android:resource="@xml/flutter_image_picker_file_paths" />
+67-->[:image_picker] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-72
+68        </provider>
+69
+70        <service
+70-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-14:56
+71            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+71-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-77
+72            android:enabled="true"
+72-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-35
+73            android:exported="false"
+73-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+74            android:foregroundServiceType="location" />
+74-->[:geolocator_android] /Users/ayinlakwamdeen/Downloads/shopping_cart-main/build/geolocator_android/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-53
+75
+76        <uses-library
+76-->[androidx.window:window:1.0.0-beta04] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+77            android:name="androidx.window.extensions"
+77-->[androidx.window:window:1.0.0-beta04] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+78            android:required="false" />
+78-->[androidx.window:window:1.0.0-beta04] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+79        <uses-library
+79-->[androidx.window:window:1.0.0-beta04] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+80            android:name="androidx.window.sidecar"
+80-->[androidx.window:window:1.0.0-beta04] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+81            android:required="false" />
+81-->[androidx.window:window:1.0.0-beta04] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+82
+83        <activity
+83-->[com.google.android.gms:play-services-base:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+84            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+84-->[com.google.android.gms:play-services-base:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+85            android:exported="false"
+85-->[com.google.android.gms:play-services-base:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+86            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+86-->[com.google.android.gms:play-services-base:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/3679fa9be1d67d14c72169d3353f14d4/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+87
+88        <meta-data
+88-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+89            android:name="com.google.android.gms.version"
+89-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+90            android:value="@integer/google_play_services_version" />
+90-->[com.google.android.gms:play-services-basement:17.0.0] /Users/ayinlakwamdeen/.gradle/caches/transforms-2/files-2.1/a7975ba3cb0c3630bd14453686890431/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+91    </application>
+92
+93</manifest>
